@@ -1,0 +1,158 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    font-family: roboto, sans-serif;
+}
+
+.fContainer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(73, 73, 73, 0.529);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 800px;
+    height: 20px;
+    background-color: rgb(220, 220, 220);
+    box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.5);
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;    
+}
+
+.png>img {
+    width: 40px;
+    height: 15;
+    padding: 25;
+    transition: all .4s ease-in-out;
+    font-weight: 900;
+}
+
+.png>img>a:hover{
+    padding: 25;
+    transition: all .4s ease-in-out;
+    font-weight: 900;
+}
+
+.firstname{
+   color: rgb(255, 0, 0);
+    font-weight: 1000;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.namet{
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.lastname{
+    color: rgb(255, 149, 0);
+    padding-left: 1px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5em;
+}
+
+.navigation>li{
+list-style-type: none;
+padding: 15px;
+text-transform: capitalize;
+border-color: blue;
+}
+
+.navigation>li>a{
+    font-size: 15px;
+    text-decoration:none ;
+}
+
+.navigation>li>a:hover{
+    color: rgba(29, 29, 29, 0.733);
+    background-color: rgb(255, 111, 0);
+    transition: all .2s ease-in-out;
+}
+
+
+.kembali{
+    height: 30px;
+    width: 40px;
+    background-color: red;
+    padding: 1px;
+    font-size: 20px;
+    border-color: rgb(255, 0, 0);
+    color: black;
+}
+
+.kembali>li{
+    height: 30px;
+    width: 40px;
+    background-color: red;
+    padding: 1px;
+    font-size: 20px;
+    border-color: rgb(0, 255, 128);
+}
+
+.navbar:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 40px;
+    padding: 1px;
+    font-size: 20px;
+}
+
+.navbar>li>a:hover{
+    background-color: rgb(255, 0, 212);
+    color: rgb(0, 252, 4);
+    padding: 12px;
+    font-size: 200;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.aktif{
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 0, 179);
+    padding: 12px;
+    font-size: 200;
+}
+
+.idup{
+    background-color: crimson;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 300;
+}
+
+    .dek>li>b{
+        background-color: aliceblue;
+        color: black;
+        font-size: 1px;
+    }
+
+    .ekte{
+        width: 30px;
+        height: 20px;
+        font-size: 30px;
+        padding: 50px;
+        padding-left: 20px;
+    }
